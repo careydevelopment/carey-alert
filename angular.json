@@ -3,5 +3,46 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "carey-alert": {
+      "projectType": "library",
+      "root": "projects/carey-alert",
+      "sourceRoot": "projects/carey-alert/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/carey-alert/tsconfig.lib.json",
+            "project": "projects/carey-alert/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/carey-alert/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/carey-alert/src/test.ts",
+            "tsConfig": "projects/carey-alert/tsconfig.spec.json",
+            "karmaConfig": "projects/carey-alert/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/carey-alert/tsconfig.lib.json",
+              "projects/carey-alert/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "carey-alert"
 }
