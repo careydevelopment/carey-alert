@@ -1,24 +1,21 @@
-# CareyAlert
+![Carey Development Logo](http://careydevelopment.us/img/branding/careydevelopment-logo-sm.png)
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.9.
+# Carey Development Alert Module
 
-## Code scaffolding
+![license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
-Run `ng generate component component-name --project carey-alert` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project carey-alert`.
-> Note: Don't forget to add `--project carey-alert` or else it will be added to the default project in your `angular.json` file. 
 
-## Build
+## Overview
+This package includes reusable alert-related code that you can use throughout any Angular application.
 
-Run `ng build carey-alert` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage: Installation
+It's easy to install this package:
+```
+npm install carey-alert
+```
 
-## Publishing
+Once you've installed it, you can begin using the service included in the package.
 
-After building your library with `ng build carey-alert`, go to the dist folder `cd dist/carey-alert` and run `npm publish`.
+## License
+This code is under the [MIT License](https://github.com/careydevelopment/carey-alert/blob/master/LICENSE).
 
-## Running unit tests
-
-Run `ng test carey-alert` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
