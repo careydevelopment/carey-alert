@@ -3,7 +3,7 @@
 # Carey Development Alert Module
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg) 
-
+[![npm version](https://badge.fury.io/js/carey-alert.svg)](https://badge.fury.io/js/carey-alert)
 
 ## Overview
 This package includes reusable alert-related code that you can use throughout any Angular application.
